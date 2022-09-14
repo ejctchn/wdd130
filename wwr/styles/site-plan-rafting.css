@@ -6,7 +6,7 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #3943B7;
+  --primary-color: #3943B7 ;
   --secondary-color: #E08E45;
   --accent1-color: #F8F4A6;
   --accent2-color: #BDF7B7;
