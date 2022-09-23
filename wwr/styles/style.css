@@ -9,8 +9,7 @@
 #content
 {
     max-width: 1600px;
-    min-width: none;
-    width: block;
+    display: block;
     margin: 0 auto;
 }
 header
@@ -90,7 +89,7 @@ footer
 }
 footer p
 {
-    text-size-adjust: 1.2em;
+    font-size: 1.2em;
 }
 footer p a:hover
 {
