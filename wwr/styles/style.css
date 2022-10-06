@@ -131,7 +131,7 @@ main section img{
 {
     width: 100%;
     transition: transform 0.5s;
-    box-shadow: 5px 5px 10px #222222;
+    box-shadow: 5px 5px 10px #222222   ;
     border: 10px solid #3943B7;
 }
 .card-img:hover
