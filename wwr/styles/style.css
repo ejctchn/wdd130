@@ -239,6 +239,75 @@ footer .social a
     padding: 5px;
 }
 
+/* - Contact Us Page - */
+#content-contact
+{
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
+}
+#faq
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#faq-box
+{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+#faq-msg
+{
+    display: flex;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+}
+#faq-msg h1
+{
+    font-size: 3em;
+    color: #E08E45;
+    z-index: 1;
+}
+#faq-box img
+{
+    width: 100%;
+}
+.faq-qna h3
+{
+    color: #E08E45;
+    font-family: "IM Fell French Canon";
+    text-decoration: underline;
+}
+.faq-qna
+{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+#q-box
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#q-box h3
+{
+    display: flex;
+    grid-column: 1/3;
+    align-items: center;
+    justify-content: center;
+}
+#q-box textarea
+{
+    display: flex;
+    grid-column: 1/3;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -280,3 +349,4 @@ footer .social a
         margin-top: 25px;
     }
 }
+
