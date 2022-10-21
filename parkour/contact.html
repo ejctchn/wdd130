@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link type="text/css" rel="stylesheet" href="styles/style.css">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
-                <a href="contact.html">FAQ</a>
+                <a class="active" href="contact.html">FAQ</a>
             </nav>
         </header>
         <div id="contact">
@@ -31,29 +32,42 @@
         </div>
         <main class="contact-grid">
             <section class="question1">
-                <h2>Question 1</h2>
+                <h2>How old do I have to be to participate in these escape rooms?</h2>
                 <p>
-                    Question 1
+                    Any age is welcome! However, those under 18 need to be accompanied by a responsable adult. Every participent 
+                    must also sign our <a href="#pretendwaiver">waiver</a>.
                 </p>
             </section>
             <section class="question2">
-                <h2>Question 2</h2>
+                <h2>How do I know which difficulty level is right for me?</h2>
                 <p>
-                    Question 2
+                    For those who do not consider themselves "athletic", the Beginner rooms will most likely be the best fit.
+                    If you have never practiced Parkour before, but consider yourself "athletic", you might try the Intermediate 
+                    rooms. If you're still unsure, talk with one of our staff. They can help you decide. 
                 </p>
             </section>
-            <section class="question2">
-                <h2>Question 3</h2>
+            <section class="question3">
+                <h2>Where are you located?</h2>
                 <p>
-                    Question 3
+                    Our address is: <br>
+                    26 Peach Road <br>
+                    Atlanta, GA 31098 <br>
+                    <br>
+                    If you have a question that is not listed here, you may use the form below to submit it. Inquiries, suggestions, 
+                    and complants may also be submitted by mail if you choose not to use the form below.
                 </p>
-                <img class="contact-img" src="images/backflash.png" alt="Eli doing a backflash">
-                <img class="contact-img" src="images/speedv.jpg" alt="speed vault">
             </section>
-            <div id="background"></div>
-            <textarea id="name" placeholder="Please enter your name here"></textarea>
-            <textarea id="question" placeholder="Please enter question here"></textarea>
-            <button type="button">Submit</button>
+            <section class="custom">
+                <img id="contact-img1" src="images/climb.jpg" alt="Eli doing a backflash">
+                <img id="contact-img2" src="images/speedv.jpg" alt="speed vault">
+                <div id="outline">
+                    <h1>Still have questions?</h1>
+                    <textarea id="name" placeholder="Please enter your name here"></textarea>
+                    <textarea id="email" placeholder="Please enter your email here"></textarea>
+                    <textarea id="question" placeholder="Please enter question here"></textarea>
+                    <button id="sub" type="button" onclick="func()">Submit</button>
+                </div>
+            </section>
         </main>
         <footer>
             <p>Escape Parkour LLC &copy; 2022 - Eli Cutchen</p>
@@ -72,5 +86,6 @@
             </div>
         </footer>
     </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
